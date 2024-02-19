@@ -31,12 +31,14 @@ import WalletWizard from './components/WalletWizard.vue';
 }
 
 .titre{
-  color: white;
+  color: #F2F3F4;
   background-color: #0C1821;
   margin: auto;
+  margin-top: 1rem;
   text-align: center;
   font-size: 3rem;
   font-family: "Lumanosimo", cursive;
+  text-shadow: 0px 0px 19px #31CEAD;
 }
 
 img{

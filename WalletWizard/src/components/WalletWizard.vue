@@ -67,6 +67,10 @@ const changeT = computed(()=>{
 }
 
 form{
+  font-size: 2rem;
+  border: 0.1rem solid #F2F3F4;
+  padding: 1rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -91,5 +95,15 @@ button:hover {
 
 .cardDepense{
   margin-top: 2rem;
+}
+
+.total{
+  border: 0.1rem solid #F2F3F4;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  position: absolute;
+  left: 48rem;
+  top: 20rem
 }
 </style>

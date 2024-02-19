@@ -46,6 +46,7 @@ const addEntree = (desc, mtn) =>{
 
 <style scoped>
 .entrees{
+  
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
@@ -53,6 +54,10 @@ const addEntree = (desc, mtn) =>{
 }
 
 form{
+  font-size: 2rem;
+  border: 0.1rem solid #F2F3F4;
+  padding: 1rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
